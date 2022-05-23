@@ -34,6 +34,20 @@ class SignUpPage extends StatelessWidget {
                   color: Colors.red,
                 ),
                 label: Text("Sign Up with Google")),
+            SizedBox(
+              height: 20,
+            ),
+            ElevatedButton.icon(
+                style: ElevatedButton.styleFrom(
+                    primary: Color.fromARGB(255, 25, 36, 255),
+                    onPrimary: Colors.white,
+                    minimumSize: Size(double.infinity, 50)),
+                onPressed: () {},
+                icon: FaIcon(
+                  FontAwesomeIcons.facebook,
+                  color: Color.fromARGB(255, 230, 230, 230),
+                ),
+                label: Text("Sign Up with Facebook")),
           ],
         ),
       ),
